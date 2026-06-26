@@ -90,4 +90,4 @@ if st.button("Predict"):
     if probability > 0.5:
         st.error("⚠ Customer is likely to churn.")
     else:
-        st.success("✅ Customer is not likely to churn.")
+        st.success("✅ Customer is not likely to churn.")  
